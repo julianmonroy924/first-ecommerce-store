@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your E-Commerce Site</title>
-    <link rel="stylesheet" href="src/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your E-Commerce Site</title>
+  <link rel="stylesheet" href="src/output.css">
 
 </head>
 
@@ -12,1045 +13,1172 @@
   <div class="max-w-screen">
     <header>
 
-         <!-- Notification Banner, needs black background -->
-        <div class="flex bg-black text-white justify-center gap-12px text-sm py-2">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m9 14.25 6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0c1.1.128 1.907 1.077 1.907 2.185ZM9.75 9h.008v.008H9.75V9Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm4.125 4.5h.008v.008h-.008V13.5Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-              </svg>
-              
-            <p class=""> 30% off storewide -- Limited time! <a href="#" target="_blank" class="text-yellow-500 decoration-solid"> Shop Now -> </a></p>
+      <!-- Notification Banner, needs black background -->
+      <div class="flex bg-black text-white justify-center gap-12px text-sm py-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="m9 14.25 6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0c1.1.128 1.907 1.077 1.907 2.185ZM9.75 9h.008v.008H9.75V9Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm4.125 4.5h.008v.008h-.008V13.5Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+        </svg>
+
+        <p class=""> 30% off storewide -- Limited time! <a href="#" target="_blank"
+            class="text-yellow-500 decoration-solid"> Shop Now -> </a></p>
+      </div>
+      <!-- Navigation Bar -->
+
+      <div class="p-2 flex justify-around space-x-4 base-color">
+
+        <div class="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="100%" fill="none" viewBox="0 0 220 40">
+            <path fill="#0E1534"
+              d="M20 40c11.046 0 20-8.954 20-20V6a6 6 0 0 0-6-6H21v8.774c0 2.002.122 4.076 1.172 5.78a9.999 9.999 0 0 0 6.904 4.627l.383.062a.8.8 0 0 1 0 1.514l-.383.062a10 10 0 0 0-8.257 8.257l-.062.383a.8.8 0 0 1-1.514 0l-.062-.383a10 10 0 0 0-4.627-6.904C12.85 21.122 10.776 21 8.774 21H.024C.547 31.581 9.29 40 20 40Z">
+            </path>
+            <path fill="#0E1534"
+              d="M0 19h8.774c2.002 0 4.076-.122 5.78-1.172a10.018 10.018 0 0 0 3.274-3.274C18.878 12.85 19 10.776 19 8.774V0H6a6 6 0 0 0-6 6v13ZM46.455 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM211.711 12.104c5.591 0 8.289 3.905 8.289 8.428v8.495h-5.851V21.54c0-2.05-.748-3.742-2.893-3.742-2.145 0-2.86 1.692-2.86 3.742v7.486h-5.851V21.54c0-2.05-.715-3.742-2.861-3.742-2.145 0-2.893 1.692-2.893 3.742v7.486h-5.85v-8.495c0-4.523 2.697-8.428 8.288-8.428 3.056 0 5.266 1.204 6.274 3.189 1.072-1.985 3.413-3.19 6.208-3.19ZM180.427 23.82c1.885 0 2.698-1.725 2.698-3.776v-7.29h5.85v8.006c0 4.784-2.795 8.755-8.548 8.755-5.754 0-8.549-3.97-8.549-8.755v-8.006h5.851v7.29c0 2.05.812 3.776 2.698 3.776ZM163.275 29.547c-3.673 0-6.046-1.269-7.444-3.742l4.226-2.376c.585 1.041 1.462 1.562 2.925 1.562 1.203 0 1.755-.423 1.755-.944 0-1.985-8.581.033-8.581-6.28 0-3.06 2.6-5.533 7.021-5.533 3.868 0 5.981 1.887 6.924 3.71l-4.226 2.408c-.357-.976-1.463-1.562-2.568-1.562-.845 0-1.3.358-1.3.846 0 2.018 8.581.163 8.581 6.281 0 3.417-3.348 5.63-7.313 5.63ZM142.833 36.512h-5.851V20.858c0-4.98 3.738-8.592 8.939-8.592 5.071 0 8.939 3.873 8.939 8.592 0 5.207-3.446 8.657-8.614 8.657-1.203 0-2.405-.358-3.413-.912v7.909Zm3.088-12.497c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.124-3.088-3.124s-3.088 1.4-3.088 3.125c0 1.692 1.235 3.124 3.088 3.124ZM131.121 11.03c-1.918 0-3.51-1.595-3.51-3.515 0-1.92 1.592-3.515 3.51-3.515 1.918 0 3.511 1.595 3.511 3.515 0 1.92-1.593 3.515-3.511 3.515Zm-2.925 1.724h5.851v16.273h-5.851V12.754ZM116.97 29.515c-5.071 0-8.939-3.905-8.939-8.657 0-4.719 3.868-8.624 8.939-8.624s8.939 3.905 8.939 8.624c0 4.752-3.868 8.657-8.939 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM96.983 37c-4.03 0-6.956-1.79-8.451-4.98l4.843-2.603c.52 1.107 1.495 2.246 3.51 2.246 2.114 0 3.511-1.335 3.674-3.678-.78.684-2.016 1.204-3.868 1.204-4.519 0-8.16-3.482-8.16-8.364 0-4.718 3.869-8.559 8.94-8.559 5.201 0 8.939 3.613 8.939 8.592v6.444c0 5.858-4.064 9.698-9.427 9.698Zm.39-13.31c1.755 0 3.088-1.205 3.088-2.995 0-1.757-1.332-2.929-3.088-2.929-1.723 0-3.088 1.172-3.088 2.93 0 1.79 1.365 2.993 3.088 2.993ZM78.607 29.515c-5.071 0-8.94-3.905-8.94-8.657 0-4.719 3.869-8.624 8.94-8.624 5.07 0 8.939 3.905 8.939 8.624 0 4.752-3.869 8.657-8.94 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM59.013 7.06v16.434H68.7v5.533H58.2c-3.705 0-5.2-1.953-5.2-5.045V7.06h6.013Z">
+            </path>
+          </svg>
         </div>
-        <!-- Navigation Bar -->
-        
-        <div class="p-2 flex justify-around space-x-4 bg-yellow-300">
 
-            <div class="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="100%" fill="none" viewBox="0 0 220 40"><path fill="#0E1534" d="M20 40c11.046 0 20-8.954 20-20V6a6 6 0 0 0-6-6H21v8.774c0 2.002.122 4.076 1.172 5.78a9.999 9.999 0 0 0 6.904 4.627l.383.062a.8.8 0 0 1 0 1.514l-.383.062a10 10 0 0 0-8.257 8.257l-.062.383a.8.8 0 0 1-1.514 0l-.062-.383a10 10 0 0 0-4.627-6.904C12.85 21.122 10.776 21 8.774 21H.024C.547 31.581 9.29 40 20 40Z"></path><path fill="#0E1534" d="M0 19h8.774c2.002 0 4.076-.122 5.78-1.172a10.018 10.018 0 0 0 3.274-3.274C18.878 12.85 19 10.776 19 8.774V0H6a6 6 0 0 0-6 6v13ZM46.455 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM211.711 12.104c5.591 0 8.289 3.905 8.289 8.428v8.495h-5.851V21.54c0-2.05-.748-3.742-2.893-3.742-2.145 0-2.86 1.692-2.86 3.742v7.486h-5.851V21.54c0-2.05-.715-3.742-2.861-3.742-2.145 0-2.893 1.692-2.893 3.742v7.486h-5.85v-8.495c0-4.523 2.697-8.428 8.288-8.428 3.056 0 5.266 1.204 6.274 3.189 1.072-1.985 3.413-3.19 6.208-3.19ZM180.427 23.82c1.885 0 2.698-1.725 2.698-3.776v-7.29h5.85v8.006c0 4.784-2.795 8.755-8.548 8.755-5.754 0-8.549-3.97-8.549-8.755v-8.006h5.851v7.29c0 2.05.812 3.776 2.698 3.776ZM163.275 29.547c-3.673 0-6.046-1.269-7.444-3.742l4.226-2.376c.585 1.041 1.462 1.562 2.925 1.562 1.203 0 1.755-.423 1.755-.944 0-1.985-8.581.033-8.581-6.28 0-3.06 2.6-5.533 7.021-5.533 3.868 0 5.981 1.887 6.924 3.71l-4.226 2.408c-.357-.976-1.463-1.562-2.568-1.562-.845 0-1.3.358-1.3.846 0 2.018 8.581.163 8.581 6.281 0 3.417-3.348 5.63-7.313 5.63ZM142.833 36.512h-5.851V20.858c0-4.98 3.738-8.592 8.939-8.592 5.071 0 8.939 3.873 8.939 8.592 0 5.207-3.446 8.657-8.614 8.657-1.203 0-2.405-.358-3.413-.912v7.909Zm3.088-12.497c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.124-3.088-3.124s-3.088 1.4-3.088 3.125c0 1.692 1.235 3.124 3.088 3.124ZM131.121 11.03c-1.918 0-3.51-1.595-3.51-3.515 0-1.92 1.592-3.515 3.51-3.515 1.918 0 3.511 1.595 3.511 3.515 0 1.92-1.593 3.515-3.511 3.515Zm-2.925 1.724h5.851v16.273h-5.851V12.754ZM116.97 29.515c-5.071 0-8.939-3.905-8.939-8.657 0-4.719 3.868-8.624 8.939-8.624s8.939 3.905 8.939 8.624c0 4.752-3.868 8.657-8.939 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM96.983 37c-4.03 0-6.956-1.79-8.451-4.98l4.843-2.603c.52 1.107 1.495 2.246 3.51 2.246 2.114 0 3.511-1.335 3.674-3.678-.78.684-2.016 1.204-3.868 1.204-4.519 0-8.16-3.482-8.16-8.364 0-4.718 3.869-8.559 8.94-8.559 5.201 0 8.939 3.613 8.939 8.592v6.444c0 5.858-4.064 9.698-9.427 9.698Zm.39-13.31c1.755 0 3.088-1.205 3.088-2.995 0-1.757-1.332-2.929-3.088-2.929-1.723 0-3.088 1.172-3.088 2.93 0 1.79 1.365 2.993 3.088 2.993ZM78.607 29.515c-5.071 0-8.94-3.905-8.94-8.657 0-4.719 3.869-8.624 8.94-8.624 5.07 0 8.939 3.905 8.939 8.624 0 4.752-3.869 8.657-8.94 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM59.013 7.06v16.434H68.7v5.533H58.2c-3.705 0-5.2-1.953-5.2-5.045V7.06h6.013Z"></path></svg>
-            </div>
-
-            <div class=" place-self-center space-x-10 "> 
-                <a href="#">Home</a>
-                <a href="#">Shop</a>
-                <a href="#">Product</a>
-                <a href="#">Contact Us</a>
-            </div>
-
-            <div class="flex space-x-4 place-self-center">
-                <a href="path/to/search-page.html"></a>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                    </svg>
-                </a>
-
-                <a href="path/to/login-page.html">
-                    <svg width=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                    </svg>
-                </a>
-
-                <a href="path/to/shopping-cart.html">
-                    <svg width=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                    </svg>
-
-                    <!--<span class="" id="cartItemCount">0</span>-->
-                </a>
-            </div>
+        <div class=" place-self-center space-x-10 ">
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">Product</a>
+          <a href="#">Contact Us</a>
         </div>
-    
+
+        <div class="flex space-x-4 place-self-center">
+          <a href="path/to/search-page.html"></a>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+          </a>
+
+          <a href="path/to/login-page.html">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
+          </a>
+
+          <a href="path/to/shopping-cart.html">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+            </svg>
+
+            <!--<span class="" id="cartItemCount">0</span>-->
+          </a>
+        </div>
+      </div>
+
     </header>
 
-     <!-- Hero Section -->
-    <div class="flex  h-[620px] bg-yellow-300 ">
-        
-        <img class="w-1/2 object-cover  " src="Images/heroMainImage-removebg (1).png" alt="Italian Trulli">
-        
-        <div class="mt-60 mr-60">
-            <h2 class="text-7xl font-medium	tracking-tighter">Listen to the <span style="color:#377DFF; class="text-blue-500">amazing</span> music sound.</h2>
-          
-            <p class="p-2">Experience music like never before</p>
-            <button class="text-white bg-black  rounded-lg p-2" type="button">Shopping Now</button>
-        </div>    
-    
-    </div>
-  
+    <!-- Hero Section -->
+    <div class="flex  h-[620px] base-color">
 
-    <!-- Product Carousel / New Arrivals-->
+      <img class="w-1/2 object-cover  " src="Images/heroMainImage-removebg (1).png" alt="Italian Trulli">
+
+      <div class="mt-60 mr-60">
+        <h2 class="text-7xl font-medium	tracking-tighter">Listen to the <span style="color:#377DFF; class="
+            text-blue-500">amazing</span> music sound.</h2>
+
+        <p class="p-2">Experience music like never before</p>
+        <button class="text-white bg-black  rounded-lg p-2" type="button">Shopping Now</button>
+      </div>
+
+    </div>
+
+
+    <!-- Product Carousel / New Arrivals make images the same size, -->
     <h3 class="absolute text-5xl p-16">New Arrivals</h3><br><br><br>
-    
+
     <div class="flex">
-        
-        <!-- Product Card 1 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
-              </div>
-          
-              
-              <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                    </svg>
-                </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/blackBoseOverear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-          
-              <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center" type="button">Add to cart</button>
-          
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
-            <p class="font-semibold">$299.99 </p>
-          
-        </div>
-        
-        <!-- Product Card 2 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
-              </div>
-          
-              
-              <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                    </svg>
-                </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/whiteBeatsOverear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-          
-              <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center" type="button">Add to cart</button>
-          
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
-            <p class="font-semibold">$299.99 </p>
-          
-        </div>
-        
-        <!-- Product Card 3 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
-              </div>
-          
-              
-              <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                    </svg>
-                </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/whiteSonyOverhead-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-          
-              <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center" type="button">Add to cart</button>
-          
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
-            <p class="font-semibold">$299.99 </p>
-          
+
+      <!-- Product Card 1 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
+          </div>
+
+
+          <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor"
+              class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/blackBoseOverear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+
+          <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center"
+            type="button">Add to cart</button>
+
+
         </div>
 
-        <!-- Product Card 4 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
-              </div>
-          
-              
-              <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                    </svg>
-                </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/blackSkullcandyInear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-          
-              <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center" type="button">Add to cart</button>
-          
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
-            <p class="font-semibold">$299.99 </p>
-          
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
         </div>
-                
-        <!-- Add more product cards as needed -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
-              </div>
-          
-              
-              <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                    </svg>
-                </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/blackBoseInear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-          
-              <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center" type="button">Add to cart</button>
-          
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
-            <p class="font-semibold">$299.99 </p>
-          
+
+        <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
+        <p class="font-semibold">$299.99 </p>
+
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
+          </div>
+
+
+          <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor"
+              class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/whiteBeatsOverear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+
+          <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center"
+            type="button">Add to cart</button>
+
+
         </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
+        <p class="font-semibold">$299.99 </p>
+
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
+          </div>
+
+
+          <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor"
+              class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/whiteSonyOverhead-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+
+          <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center"
+            type="button">Add to cart</button>
+
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
+        <p class="font-semibold">$299.99 </p>
+
+      </div>
+
+      <!-- Product Card 4 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
+          </div>
+
+
+          <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor"
+              class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/blackSkullcandyInear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+
+          <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center"
+            type="button">Add to cart</button>
+
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
+        <p class="font-semibold">$299.99 </p>
+
+      </div>
+
+      <!-- Add more product cards as needed -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> New
+          </div>
+
+
+          <div class="absolute flex justify-end ml-60 pl-2 pt-1 mt-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor"
+              class="absolute self-end size-7 mt-2 mr-2 shadow-md bg-white text-gray-400 rounded-full cursor-pointer">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/blackBoseInear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+
+          <button class="mb-8 self-center flex bg-black text-white p-2 rounded-lg w-full max-w-40 justify-center"
+            type="button">Add to cart</button>
+
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Skullcandy - Crusher anc 2 wireless headphones</h4>
+        <p class="font-semibold">$299.99 </p>
+
+      </div>
 
     </div>
 
-        <!-- Shop Collection Banner -->
-        <h3 class="p-16 text-5xl">Shop Collection</h3>
+    <!-- Shop Collection Banner -->
+    <h3 class="p-16 text-5xl">Shop Collection</h3>
 
-        <div class="w-full p-16 grid grid-rows-2 grid-col-2 grid-flow-col gap-4">
-            
-            <!-- Right-hand side field -->
-            <div class="w-196 h-full grid justify-center items-center row-span-2  bg-slate-100 ">
-                <img class="" src="Images/whiteSonyOverhead2-removebg-preview.png" alt="Italian Trulli">
-                <h4 class="text-5xl">Headband</h4>
-                <a href="#">Collection -></a>
-            </div>
-            <!-- Left-hand side fields -->
-            <div class="w-196 h-full border bg-slate-100 grid justify-center items-center">
-                <img class="" src="Images/whiteBoseInear-removebg-preview.png" alt="Italian Trulli">
-                <h4 class="text-5xl">Earbuds</h4>
-                <a href="#">Collection -></a>
-            </div>
-            <div class="w-196 h-64 border grid justify-center    bg-slate-100">
-                <img class="" src="Images/phoneCharger-removebg-preview.png" alt="Italian Trulli">
-                <h4 class=" text-5xl">Accessories</h4>
-                <a href="#">Collection -></a>
-            </div>
-        </div>
-        
-        <br><br>
+    <div class="w-full p-16 grid grid-rows-2 grid-col-2 gap-4 grid-flow-col ">
+
+      <!-- Right-hand side field -->
+      <div class="w-196 h-full grid justify-center items-center row-span-2  bg-slate-100 ">
+        <img class="" src="Images/whiteSonyOverhead2-removebg-preview.png" alt="Italian Trulli">
+        <h4 class="text-5xl">Headband</h4>
+        <a href="#">Collection -></a>
+      </div>
+      <!-- Left-hand side fields -->
+      <div class=" border bg-slate-100 grid justify-center items-center">
+        <img class="" src="Images/whiteBoseInear-removebg-preview.png" alt="Italian Trulli">
+        <h4 class="text-5xl">Earbuds</h4>
+        <a href="#">Collection -></a>
+      </div>
+      <div class=" border grid justify-center    bg-slate-100">
+        <img class="" src="Images/phoneCharger-removebg-preview.png" alt="Italian Trulli">
+        <h4 class=" text-5xl">Accessories</h4>
+        <a href="#">Collection -></a>
+      </div>
+    </div>
+
+    <br><br>
+
     <!-- Best Sellers Banner -->
-    
+
     <h3 class="absolute pl-16 p-9 text-5xl	">Best Seller</h3><br><br>
-    
+
     <div class="grid grid-cols-4 flex-wrap">
-        
-        <!-- Product Card 1 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/whiteSonyOverhead2-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Sony - WH-1000XM5 Wireless</h4>
-            <h4 class="text-base w-64 font-semibold">Noise Canceling</h4>
-            <p class="font-semibold">$299.99 </p>
-          
-        </div>
-        
-        <!-- Product Card 2 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/whiteBeatsOverear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Beats</h4>
-            <h4 class="text-base w-64 font-semibold">Studio Pro</h4>
-            <p class="font-semibold">$349.99 </p>
-          
-        </div>
-        
-        <!-- Product Card 3 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
 
-              <div class="size-50 mt-5 ">
-                <img src="Images/whiteSonyOverhead-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Sony - WH-CH720N Wireless</h4>
-            <h4 class="text-base w-64 font-semibold">Noise Canceling</h4>
-            <p class="font-semibold">$149.99 </p>
-          
+      <!-- Product Card 1 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/whiteSonyOverhead2-removebg-preview.png" alt="Icon 1"><br>
+          </div>
         </div>
 
-        <!-- Product Card 4 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/blackSkullcandyInear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Skullcandy - Rail True Wireless</h4>
-            <h4 class="text-base w-64 font-semibold">Earbuds</h4>
-            <p class="font-semibold">$79.99 </p>
-          
-        </div>
-                
-        <!-- Product Card 5 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/blackBoseInear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Beats</h4>
-            <h4 class="text-base w-64 font-semibold">Studio Pro</h4>
-            <p class="font-semibold">$249.99 </p>
-          
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
         </div>
 
-        <!-- Product Card 6 -->
-        <div class="p-16">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/whiteJBLinear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">JBL Reflect Flow Pro+ Bluetooth</h4>
-            <h4 class="text-base w-64 font-semibold">Truly Wireless Sports</h4>
-            <p class="font-semibold">$179.95 </p>
-          
+        <h4 class="text-base w-64 font-semibold">Sony - WH-1000XM5 Wireless</h4>
+        <h4 class="text-base w-64 font-semibold">Noise Canceling</h4>
+        <p class="font-semibold">$299.99 </p>
+
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/whiteBeatsOverear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
         </div>
 
-        <!-- Product Card 7 -->
-        <div class="p-16 ">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
-          
-              <div class="size-60 mt-5 ">
-                <img src="Images/blackBoseOverear2-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">Bose</h4>
-            <h4 class="text-base w-64 font-semibold">QuietComfort Headphones</h4>
-            <p class="font-semibold">$349.00 </p>
-          
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
         </div>
 
-        <!-- Product Card 8 -->
-        <div class="p-16 ">
-            <div class="flex flex-col w-64 h-82 bg-slate-100">
-          
-              <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
-              </div>
-          
-              <div class="size-50 mt-5 ">
-                <img src="Images/blackAKGoverear-removebg-preview.png" alt="Icon 1"><br>
-              </div>
-          
-            </div>
-          
-            <div class="flex">
-              <div class="pointer-events">
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div> 
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                    <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              <div>
-                  <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 cursor-pointer">
-                      <path fill-rule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
-                        clip-rule="evenodd" />
-                  </svg>
-              </div>
-              
-            </div>
-          
-            <h4 class="text-base w-64 font-semibold">AKG</h4>
-            <h4 class="text-base w-64 font-semibold">Y600NC Wireless</h4>
-            <p class="font-semibold">$349.99 </p>
-          
+        <h4 class="text-base w-64 font-semibold">Beats</h4>
+        <h4 class="text-base w-64 font-semibold">Studio Pro</h4>
+        <p class="font-semibold">$349.99 </p>
+
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/whiteSonyOverhead-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
         </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Sony - WH-CH720N Wireless</h4>
+        <h4 class="text-base w-64 font-semibold">Noise Canceling</h4>
+        <p class="font-semibold">$149.99 </p>
+
+      </div>
+
+      <!-- Product Card 4 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/blackSkullcandyInear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Skullcandy - Rail True Wireless</h4>
+        <h4 class="text-base w-64 font-semibold">Earbuds</h4>
+        <p class="font-semibold">$79.99 </p>
+
+      </div>
+
+      <!-- Product Card 5 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/blackBoseInear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Beats</h4>
+        <h4 class="text-base w-64 font-semibold">Studio Pro</h4>
+        <p class="font-semibold">$249.99 </p>
+
+      </div>
+
+      <!-- Product Card 6 -->
+      <div class="p-16">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/whiteJBLinear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">JBL Reflect Flow Pro+ Bluetooth</h4>
+        <h4 class="text-base w-64 font-semibold">Truly Wireless Sports</h4>
+        <p class="font-semibold">$179.95 </p>
+
+      </div>
+
+      <!-- Product Card 7 -->
+      <div class="p-16 ">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-60 mt-5 ">
+            <img src="Images/blackBoseOverear2-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">Bose</h4>
+        <h4 class="text-base w-64 font-semibold">QuietComfort Headphones</h4>
+        <p class="font-semibold">$349.00 </p>
+
+      </div>
+
+      <!-- Product Card 8 -->
+      <div class="p-16 ">
+        <div class="flex flex-col w-64 h-82 bg-slate-100">
+
+          <div class="absolute ml-2 mt-2 px-2 w-12 bg-white font-bold rounded-lg"> HOT
+          </div>
+
+          <div class="size-50 mt-5 ">
+            <img src="Images/blackAKGoverear-removebg-preview.png" alt="Icon 1"><br>
+          </div>
+
+        </div>
+
+        <div class="flex">
+          <div class="pointer-events">
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <svg width=20 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-6 h-6 cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+
+        </div>
+
+        <h4 class="text-base w-64 font-semibold">AKG</h4>
+        <h4 class="text-base w-64 font-semibold">Y600NC Wireless</h4>
+        <p class="font-semibold">$349.99 </p>
+
+      </div>
 
     </div>
 
-    
-    
-        <br>
-        <br>
-    
-        <div class=" p-16 w-full flex grid-cols-2 ">
-            <!-- Countdown Placeholder 1 -->
-            <div class="w-1/2  h-[532px] ">
-                <img  class="relative object-contain" src="Images/CountdownImage.png" alt="Italian Trulli">
-            </div>
-            <!-- Countdown Placeholder 2 -->
-            <div class=" p-32 bg-yellow-200 w-1/2 h-auto" >
-                <p class="text-sky-500 font-bold ">PROMOTION</p>
-                <h4 class="text-4xl font-bold pb-16">Hurry up! 40% OFF</h4>
-                <p>Thousands of high tech are waiting for you</p>
-                <p>Offer expires in:</p>
-                <div class="bg-white text-black">00:00:00</div>
-                <button class="bg-black text-white p-2 rounded-lg" type="button">Shop now</button>
-            </div>
-        </div> 
-    
+    <br>
+    <br>
+
+    <div class=" p-16 w-full flex grid-cols-2 ">
+      <!-- Countdown Placeholder 1 -->
+      <div class="w-1/2  h-[532px] ">
+        <img class="relative object-contain" src="Images/CountdownImage.png" alt="Italian Trulli">
+      </div>
+      <!-- Countdown Placeholder 2 -->
+      <div class=" p-32 bg-yellow-200 w-1/2 h-auto">
+        <p class="text-sky-500 font-bold ">PROMOTION</p>
+        <h4 class="text-4xl font-bold pb-16">Hurry up! 40% OFF</h4>
+        <p>Thousands of high tech are waiting for you</p>
+        <p>Offer expires in:</p>
+        <div class="bg-white text-black">00:00:00</div>
+        <button class="bg-black text-white p-2 rounded-lg" type="button">Shop now</button>
+      </div>
+    </div>
+
 
     <!-- Centered Banner with Four Elements -->
     <div class=" p-16 flex justify-center gap-6 content-center">
-        <!-- Element 1 -->
-        <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
-            </svg>
-            <h4 class="font-bold text-3xl">Free Shipping</h4>
-            <p>Order above $200</p>
+      <!-- Element 1 -->
+      <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-20 h-20">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+        </svg>
+        <h4 class="font-bold text-3xl">Free Shipping</h4>
+        <p>Order above $200</p>
+      </div>
+      <!-- Element 2 -->
+      <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-20 h-20">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
+        </svg>
+        <h4 class="font-bold  text-3xl">Money-back</h4>
+        <p>30 days guarantee</p>
+      </div>
+      <!-- Element 3 -->
+      <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-20 h-20">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+        </svg>
+        <h4 class="font-bold  text-3xl">Secure Payments</h4>
+        <p>Secured by Stripe</p>
+      </div>
+      <!-- Element 4 -->
+      <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-20 h-20">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+          </svg>
+          <h4 class="font-bold  text-3xl">24/7 Support</h4>
+          <p>Phone and Email support</p>
         </div>
-        <!-- Element 2 -->
-        <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
-            </svg>
-            <h4 class="font-bold  text-3xl">Money-back</h4>
-            <p>30 days guarantee</p>
-        </div>
-        <!-- Element 3 -->
-        <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
-            </svg>
-            <h4 class="font-bold  text-3xl">Secure Payments</h4>
-            <p>Secured by Stripe</p>
-        </div>
-        <!-- Element 4 -->
-        <div class="box-content h-80 w-80 bg-slate-200 grid content-center p-4">
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 h-20">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-              </svg>
-              <h4 class="font-bold  text-3xl">24/7 Support</h4>
-              <p>Phone and Email support</p>
-            </div>
-        </div>
+      </div>
     </div>
 
     <!-- Newsfeed Banner Instagram -->
     <div>
-        <div  class="text-center ">
-          <p class="text-2xl font-semibold text-slate-400">NEWSFEED</p>
-          <h3 class="text-7xl pb-4 font-semibold">Instagram</h3>
-          <p class="text-2xl font-semibold text-slate-400">Follow us on social media for more discount & promotions</p>
-          <p class="text-2xl font-semibold text-slate-400">@3legant_official</p>       
-        </div>
-          <!-- Instagram Images -->
-        <div>
-            <!-- Dynamically fetch and display the last four images from Instagram -->
-            <img src=" https://via.placeholder.com/80x80" alt="Instagram Image 1" class="instagram-image">
-            <img src="https://via.placeholder.com/80x80" alt="Instagram Image 2" class="instagram-image">
-            <img src="https://via.placeholder.com/80x80" alt="Instagram Image 3" class="instagram-image">
-            <img src="https://via.placeholder.com/80x80" alt="Instagram Image 4" class="instagram-image">
-        </div>
-        <!-- Instagram Link -->
-        <a href="https://www.instagram.com/JulianDM90s/" class="instagram-link" target="_blank">Follow us on Instagram</a>
+      <div class="text-center ">
+        <p class="text-2xl font-semibold text-slate-400">NEWSFEED</p>
+        <h3 class="text-7xl pb-4 font-semibold">Instagram</h3>
+        <p class="text-2xl font-semibold text-slate-400">Follow us on social media for more discount & promotions</p>
+        <p class="text-2xl font-semibold text-slate-400">@3legant_official</p>
+      </div>
+      <!-- Instagram Images -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="flex justify-center pt-20 gap-4">
+        <!-- Dynamically fetch and display the last four images from Instagram -->
+        <img src="Images/instagramImage1.png" alt="Instagram Image 1" class="instagram-image">
+        <img src="Images/instagramImage2.png" alt="Instagram Image 2" class="instagram-image">
+        <img src="Images/instagramImage3.png" alt="Instagram Image 3" class="instagram-image">
+        <img src="Images/instagramImage4.png" alt="Instagram Image 4" class="instagram-image">
+      </div>
+      <!-- Instagram Link -->
+      <!--<a href="https://www.instagram.com/JulianDM90s/" class="#" target="_blank"></a>-->
     </div>
-
-    <!-- Newsletter sing up, needs Background -->
-    <div>
-            <h3>Join Our Newsletter</h3>
-            <p>Sign up for deals, new products and promotions</p>
-            <form action="#" method="post">
-                <label for="email">Enter your email:</label>
-                <input type="email" id="email" name="email" placeholder="YourEmail@example.com" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
-                <button type="submit">Subscribe</button>
-            </form>
-    </div>
-
+    <br>
     
+    
+    <!-- Newsletter sing up, needs Background -->
+    <div class="relative mt-10">
+
+      <img class="w-full" src="Images/newsletterBanner.png" alt="Italian Trulli">
+      <div class=" text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <h3 class="text-7xl pb-4 font-semibold">Join Our Newsletter</h3>
+        <p class="text-2xl ">Sign up for deals, new products and promotions</p>
+        
+        <div class="flex items-center justify-center pt-8">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.  5"
+            stroke="currentColor" class="flex w-6 h-6 ">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+          </svg>
+         
+
+        
+            <input type="email" class="p-2 w-96 text-black bg-[#e2e4e3]"  id="email" name="email" placeholder="Email address"  required
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+            <p>Singup</p>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+
 
     <footer>
-            
-        <!-- First Button Bar -->
-        <div>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
+
+      <!-- First Button Bar -->
+      <div class="text-white bg-black">
+        <div class="flex p-12">
+          <a href="#">3legant</a>
+          <p class="pl-6">Headphone Store</p>  
         </div>
-            
-        <!-- Second Button Bar -->
-        <div>
-            <p class="copyright">Copyright © 2023 3legant. All rights reserved.</p>
-            <a href="#">Terms of Use</a>
-            <a href="#">Privacy Policy</a>
+
+        <div class="text-right space-x-4">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Product</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
         </div>
-            
-        <!-- Social Media Icons -->
-        <div>
-            <a href="#" target="_blank"><img src="https://via.placeholder.com/30x30" alt="Facebook"></a>
-            <a href="#" target="_blank"><img src="https://via.placeholder.com/30x30" alt="Twitter"></a>
-            <a href="#" target="_blank"><img src="https://via.placeholder.com/30x30" alt="Instagram"></a>
-        </div>
-    
+      </div>
+
+      <!-- Second Button Bar -->
+      <div>
+        <p class="copyright">Copyright © 2023 3legant. All rights reserved.</p>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div>
+        <a href="#" target="_blank"><img src="https://via.placeholder.com/30x30" alt="Facebook"></a>
+        <a href="#" target="_blank"><img src="https://via.placeholder.com/30x30" alt="Twitter"></a>
+        <a href="#" target="_blank"><img src="https://via.placeholder.com/30x30" alt="Instagram"></a>
+      </div>
+
     </footer>
 
-   
 
-    
+
+
   </div>
 </body>
+
 </html>
